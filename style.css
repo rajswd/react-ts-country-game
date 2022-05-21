@@ -1,14 +1,28 @@
-h1,
-p {
+div {
   font-family: Lato;
+  display: flex;
+  flex-wrap: wrap;
 }
 button {
+  flex-grow: 1;
   margin: 7px;
   cursor: pointer;
+  padding: 7px 11px;
+  position: relative;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.2s linear;
+}
+
+button:hover {
+  margin: 5px;
+  padding: 9px 13px;
 }
 .selected-cl {
   background-color: blue;
+  color: #ffffff;
 }
 .error-cl {
   background-color: #ff0000;
+  color: #ffffff;
 }
