@@ -33,6 +33,7 @@ export default function App() {
 
   const onBtnClick = (e) => {
     const tBtn = e.target.id;
+    if(!tBtn) return;
     if (!actionData) {
       setActionData(tBtn);
       setErrData([]);
@@ -47,12 +48,12 @@ export default function App() {
   };
 
   return (
-    <div>
+    <div
+    onClick={onBtnClick}>
       {gameData.length > 0 ? (
         gameData.map((item) => {
           return (
             <button
-              onClick={onBtnClick}
               className={
                 actionData === item
                   ? 'selected-cl'
