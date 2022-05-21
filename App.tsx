@@ -5,6 +5,9 @@ export default function App() {
   const data = {
     Canada: 'Ottawa',
     China: 'Beijing',
+    Mauritius: 'Port Louis',
+    'United Kingdom': 'London',
+    'United States': '	Washington D.C.',
     India: 'New Delhi',
     Malaysia: 'Kualalumpur',
     Germany: 'Berlin',
