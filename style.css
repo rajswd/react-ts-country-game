@@ -1,0 +1,14 @@
+h1,
+p {
+  font-family: Lato;
+}
+button {
+  margin: 7px;
+  cursor: pointer;
+}
+.selected-cl {
+  background-color: blue;
+}
+.error-cl {
+  background-color: #ff0000;
+}
