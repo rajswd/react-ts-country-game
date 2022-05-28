@@ -3,14 +3,14 @@ import './style.css';
 
 export default function App() {
   const data = {
-    Canada: 'Ottawa',
-    China: 'Beijing',
-    Mauritius: 'Port Louis',
+    'Canada': 'Ottawa',
+    'China': 'Beijing',
+    'Mauritius': 'Port Louis',
     'United Kingdom': 'London',
     'United States': '	Washington D.C.',
-    India: 'New Delhi',
-    Malaysia: 'Kualalumpur',
-    Germany: 'Berlin',
+    'India': 'New Delhi',
+    'Malaysia': 'Kualalumpur',
+    'Germany': 'Berlin',
     'New Zealand': 'Wellington',
   };
   const [gameData, setGameData] = React.useState([]);
